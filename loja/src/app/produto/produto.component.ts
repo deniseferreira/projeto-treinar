@@ -26,4 +26,7 @@ export class ProdutoComponent implements OnInit {
     this.mostrarRes = true;
   }
 
+  public fazerLogin(){
+    alert("Senha ou usuário inválido");
+  }
 }
